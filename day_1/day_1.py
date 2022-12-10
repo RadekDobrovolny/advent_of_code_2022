@@ -1,6 +1,6 @@
 max_cal = 0
 
-input_file = open('./day_1/input_a.txt')
+input_file = open('./day_1/input.txt')
 lines = input_file.readlines()
 
 current_cal = 0
