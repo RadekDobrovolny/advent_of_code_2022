@@ -15,7 +15,7 @@ for tick in range(1, 241):
   # print("".join(sprite_pos))
 
   if abs(((tick-1) % 40) - register) <= 1:
-    crt_line0[(tick-1) // 40][(tick-1) % 40] = "#"
+    crt_line0[(tick-1) // 40][(tick-1) % 40] = "@"
   else:
     crt_line0[(tick-1) // 40][(tick-1) % 40] = " "
   # print("".join(crt_line0[(tick-1) // 40]))
